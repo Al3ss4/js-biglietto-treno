@@ -18,10 +18,10 @@ if(kmDaPercorrere <= 0){
  var scontistica= 'Nessuno Sconto';
 
  if(età < 18){
-    prezzoBiglietto = (prezzoBiglietto * 0.2).toFixed(2);
+    prezzoBiglietto = (prezzoBiglietto * 0.8).toFixed(2);
     scontistica = 'Sconto Minorenne';
 } else if(età > 65){
-    prezzoBiglietto = (prezzoBiglietto * 0.4).toFixed(2);
+    prezzoBiglietto = (prezzoBiglietto * 0.6).toFixed(2);
     scontistica = 'Sconto Over 65';
 }
 
